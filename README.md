@@ -93,17 +93,31 @@ Gateway sayesinde istenilen CRUD operasyonlara bu token aracılığı ile yetki 
 
 
 - UML 
+ 
+ 
+ 
+ 
   ![UMLDiagram](https://user-images.githubusercontent.com/44746773/159812458-fc5de913-b12e-4b05-af46-f31681b666c2.png)
 
 - Test Coverage
+  
+  
+  
+  
   ![TestCovarege](https://user-images.githubusercontent.com/44746773/159812652-395eb685-b0f4-4334-abb2-4a561e69b3f1.PNG)
 
 
 - User MySQL Örnek 
+  
+  
+  
   ![MySqlUser](https://user-images.githubusercontent.com/44746773/159812922-3c5dad5d-833e-4154-b6bc-8b6cc2c0c3ee.PNG)
 
 
 - Advert MySQL Örnek 
+  
+  
+  
   ![GetAdvertMySQL](https://user-images.githubusercontent.com/44746773/159813701-60740a31-b703-4bad-a94f-7cdbc40831e6.PNG)
   
 ## Katkı
