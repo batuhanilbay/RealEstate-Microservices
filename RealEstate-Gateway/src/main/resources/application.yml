@@ -1,0 +1,39 @@
+server:
+  port: 9090
+
+ 
+spring:
+  application:
+    name: RealEstate-Gateway
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8083/auth
+  cloud:
+      gateway:
+       routes:
+        - id: RealEstate
+          uri: http://localhost:8080
+          predicates:             
+           - Path=/adverts/**, /users/**
+         
+        - id: RealEstate-Payment
+          uri: http://localhost:8081
+          predicates:
+          - Path=/payments/**
+        - id: RealEstate-Auth
+          uri: http://localhost:8083
+          predicates:
+           - Path=/auth/**
+
+           
+eureka:
+  client:
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+logging:
+  level:
+    '[org.springframework.security]': TRACE
