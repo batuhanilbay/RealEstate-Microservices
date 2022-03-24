@@ -51,7 +51,7 @@ Gateway sayesinde istenilen CRUD operasyonlara bu token aracılığı ile yetki 
 
 | Parametre | Tip     | Açıklama                |
 | :-------- | :------- | :------------------------- |
-| `application/json` | `UserDto` | **DTO ile kullanılır**. Model sınıfı üzerinden erişilmez. |
+| `application/json` | `UserDto` | **DTO ile kullanılır**. Model sınıfı üzerinden erişilemez. |
 
 
 #### Kullanıcı oluşturma
@@ -83,7 +83,7 @@ Gateway sayesinde istenilen CRUD operasyonlara bu token aracılığı ile yetki 
 
 | Parametre | Tip     | Açıklama                       |
 | :-------- | :------- | :-------------------------------- |
-| `application/json`      | `AdvertDto` | **DTO ile kullanılır**. Model sınıfı üzerinden erişilmez. |
+| `application/json`      | `AdvertDto` | **DTO ile kullanılır**. Model sınıfı üzerinden erişilemez. |
 
 
 
